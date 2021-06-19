@@ -18,7 +18,7 @@ struct ContentView: View {
             Text("I love potatoes!!!!")
                 .bold()
                 .padding()
-                .background(Color.pink)
+                .background(Color.blue)
                 .foregroundColor(.white)
                 .cornerRadius(10)
                 .opacity(0.9)
