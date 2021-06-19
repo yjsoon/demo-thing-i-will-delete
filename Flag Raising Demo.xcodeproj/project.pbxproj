@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324DDCDD2674B2B100F47694 /* Flag_Raising_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324DDCDC2674B2B100F47694 /* Flag_Raising_DemoApp.swift */; };
+		324DDCDF2674B2B100F47694 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324DDCDE2674B2B100F47694 /* ContentView.swift */; };
+		324DDCE12674B2B400F47694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324DDCE02674B2B400F47694 /* Assets.xcassets */; };
+		324DDCE42674B2B400F47694 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324DDCE32674B2B400F47694 /* Preview Assets.xcassets */; };
+		34A7B1B126798CBD00FAB449 /* GIFPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7B1B026798CBD00FAB449 /* GIFPlayerView.swift */; };
+		34A7B1B326798DC500FAB449 /* SSSwiftUIGIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7B1B226798DC500FAB449 /* SSSwiftUIGIFView.swift */; };
+		AF2EBC2926799B330001734C /* rick2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF2EBC2826799B330001734C /* rick2.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		324DDCD92674B2B100F47694 /* Flag Raising Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flag Raising Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		324DDCDC2674B2B100F47694 /* Flag_Raising_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag_Raising_DemoApp.swift; sourceTree = "<group>"; };
+		324DDCDE2674B2B100F47694 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		324DDCE02674B2B400F47694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		324DDCE32674B2B400F47694 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		324DDCE52674B2B400F47694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A7B1B026798CBD00FAB449 /* GIFPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFPlayerView.swift; sourceTree = "<group>"; };
+		34A7B1B226798DC500FAB449 /* SSSwiftUIGIFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSSwiftUIGIFView.swift; sourceTree = "<group>"; };
+		AF2EBC2826799B330001734C /* rick2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rick2.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		324DDCD62674B2B100F47694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324DDCD02674B2B100F47694 = {
+			isa = PBXGroup;
+			children = (
+				324DDCDB2674B2B100F47694 /* Flag Raising Demo */,
+				324DDCDA2674B2B100F47694 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		324DDCDA2674B2B100F47694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				324DDCD92674B2B100F47694 /* Flag Raising Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		324DDCDB2674B2B100F47694 /* Flag Raising Demo */ = {
+			isa = PBXGroup;
+			children = (
+				324DDCDC2674B2B100F47694 /* Flag_Raising_DemoApp.swift */,
+				324DDCDE2674B2B100F47694 /* ContentView.swift */,
+				34A7B1B026798CBD00FAB449 /* GIFPlayerView.swift */,
+				34A7B1B226798DC500FAB449 /* SSSwiftUIGIFView.swift */,
+				AF2EBC2826799B330001734C /* rick2.gif */,
+				324DDCE02674B2B400F47694 /* Assets.xcassets */,
+				324DDCE52674B2B400F47694 /* Info.plist */,
+				324DDCE22674B2B400F47694 /* Preview Content */,
+			);
+			path = "Flag Raising Demo";
+			sourceTree = "<group>";
+		};
+		324DDCE22674B2B400F47694 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				324DDCE32674B2B400F47694 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		324DDCD82674B2B100F47694 /* Flag Raising Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324DDCE82674B2B400F47694 /* Build configuration list for PBXNativeTarget "Flag Raising Demo" */;
+			buildPhases = (
+				324DDCD52674B2B100F47694 /* Sources */,
+				324DDCD62674B2B100F47694 /* Frameworks */,
+				324DDCD72674B2B100F47694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flag Raising Demo";
+			productName = "Flag Raising Demo";
+			productReference = 324DDCD92674B2B100F47694 /* Flag Raising Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		324DDCD12674B2B100F47694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					324DDCD82674B2B100F47694 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 324DDCD42674B2B100F47694 /* Build configuration list for PBXProject "Flag Raising Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 324DDCD02674B2B100F47694;
+			productRefGroup = 324DDCDA2674B2B100F47694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				324DDCD82674B2B100F47694 /* Flag Raising Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		324DDCD72674B2B100F47694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2EBC2926799B330001734C /* rick2.gif in Resources */,
+				324DDCE42674B2B400F47694 /* Preview Assets.xcassets in Resources */,
+				324DDCE12674B2B400F47694 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		324DDCD52674B2B100F47694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324DDCDF2674B2B100F47694 /* ContentView.swift in Sources */,
+				324DDCDD2674B2B100F47694 /* Flag_Raising_DemoApp.swift in Sources */,
+				34A7B1B126798CBD00FAB449 /* GIFPlayerView.swift in Sources */,
+				34A7B1B326798DC500FAB449 /* SSSwiftUIGIFView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		324DDCE62674B2B400F47694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		324DDCE72674B2B400F47694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		324DDCE92674B2B400F47694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Flag Raising Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = XL5JK4F896;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Flag Raising Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tinkertanker.Flag-Raising-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		324DDCEA2674B2B400F47694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Flag Raising Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = XL5JK4F896;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Flag Raising Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tinkertanker.Flag-Raising-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324DDCD42674B2B100F47694 /* Build configuration list for PBXProject "Flag Raising Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324DDCE62674B2B400F47694 /* Debug */,
+				324DDCE72674B2B400F47694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324DDCE82674B2B400F47694 /* Build configuration list for PBXNativeTarget "Flag Raising Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324DDCE92674B2B400F47694 /* Debug */,
+				324DDCEA2674B2B400F47694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 324DDCD12674B2B100F47694 /* Project object */;
+}
