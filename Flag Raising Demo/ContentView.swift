@@ -15,9 +15,11 @@ struct ContentView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            Text("Hello world")
+            Text("I love potatoes!!!!")
+                .bold()
                 .padding()
-                .background(Color.white)
+                .background(Color.pink)
+                .foregroundColor(.white)
                 .cornerRadius(10)
                 .opacity(0.9)
         }
